@@ -1,0 +1,192 @@
+/* fonts */
+.inter-fonts> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+/* Shared styles */
+.display-flex {
+  display: flex;
+}
+
+.bg-color {
+  background-color: rgba(8, 6, 6, 0.945);
+}
+
+.org-color {
+  color: rgba(230, 83, 60, 1);
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.btn-primary {
+
+  width: 224px;
+  height: 54px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: #E6533C;
+  border-radius: 42px;
+  border: none;
+  margin-right: 20px;
+
+}
+
+.btn-sec {
+
+  width: 224px;
+  height: 54px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgba(26, 19, 19, 0);
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 42px;
+
+
+}
+
+
+/* navbar related styles */
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+
+
+}
+
+.nav-links {
+  text-decoration: none;
+  font-weight: 500px;
+  font-size: 18px;
+  padding: 12px 0;
+  border: 1px solid #ffffffc2;
+  border-radius: 39px;
+  gap: 47px;
+  margin-right: 190px;
+
+}
+
+.nav-item {
+  list-style: none;
+  list-style: none;
+  margin-right: 30px;
+
+}
+
+.home-style {
+  background-color: rgba(230, 83, 60, 1);
+  padding: 10px 25px;
+  margin-left: 3px;
+  border: 1px solid black;
+  border-radius: 39px;
+  border: none;
+
+
+}
+
+.fit {
+  margin-left: 190PX;
+  font-size: 36px;
+  font-weight: 800;
+  color: #E6533C;
+}
+
+/* banner-style */
+.banner {
+  justify-content: space-around;
+
+  gap: 87px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  
+
+
+}
+
+.banner-content {
+  margin-top: 96px;
+  margin-left: 190px;
+  margin-right: 190px;
+  margin-bottom: 39px;
+
+}
+
+.banner-title {
+  width: 520px;
+  height: 282px;
+  font-size: 78px;
+  color: #FFFFFF;
+
+
+}
+
+.banner-description {
+  color: #FFFFFF;
+  width: 505px;
+  height: 60px;
+  font-weight: 500;
+  font-size: 16;
+}
+.image-banner{
+  margin-left: 200px;
+  width: 349px;
+  height: 580px;
+}
+#tutorial-badge{
+  position: absolute;
+  padding: 20px 23px 20px 75px;
+  font-size: 1rem;
+  color: #ffffff7c;
+  margin-top: -165px;
+  margin-left: 105px;
+  border-radius: 12px;
+  border: 0.5px solid rgba(128, 128, 128, 0.452) ;
+  background-color: rgba(63, 61, 61, 0.39);
+  backdrop-filter: blur(8px);  
+}
+.ball{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #E6533C;
+  border-radius: 50%;
+  margin-top: -140px;
+  margin-left: 120px;
+  
+} 
+
+#tutorial-badge-2{
+  position: absolute;
+  padding: 17px 75px 18px 24px;
+  font-size: 1rem;
+  color: #ffffff71;
+  margin-top: -450px;
+  margin-left: 430px;
+  border-radius: 12px;
+  border: 0.5px solid rgba(128, 128, 128, 0.452) ;
+  background-color: rgba(63, 61, 61, 0.39);
+  backdrop-filter: blur(8px);
+}
+
+#video-tutorial{
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+#video-tutorial-2{
+  font-size: 40px;
+  font-weight: 700;
+  color: #FFFFFF;
+}

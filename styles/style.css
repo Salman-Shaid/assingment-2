@@ -803,15 +803,18 @@ input{
 /* habit section media quiry  */
 
 .habit{
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 30px;
+  margin-bottom: 100px
+  
 }
 .habit-container{
 
-  max-width: 318px;
+  width: 318px;
   height: 124px;
-  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
   
 }
 .image-section{
@@ -837,20 +840,23 @@ input{
 }
 
 .section-description {
-  
-  
+
   color: gray;
   font-size: 14;
 }
 
 main > section {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 /* run section */
+.r{
+  margin-bottom: 10px;
+}
 .Run{
   flex-direction: column;
-  margin-top: 1400px;
+  margin-top: 1410px;
+  margin-bottom: 0px;
 }
 .Run {
   
@@ -859,6 +865,7 @@ main > section {
   height: 531px;
   border: none;
   border-radius: 18px;
+  margin-bottom: 0px;
 
   
  
@@ -916,6 +923,131 @@ main > section {
   margin-top: 13px;
   
 
+}
+
+/* bmi section responsive */
+.table-section{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.table-content{
+  margin-left: 0;
+  margin: 20px;
+}
+.table-form{
+  justify-content: center;
+  align-items: center;
+  width: 394px;
+  height: 772px;
+  margin-top: 0;
+  
+  
+}
+.bmi-head-container{
+  width: 353px;
+  height: 124px;
+  justify-content: center;
+  align-items: center;
+}
+.BMI-title {
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-left: 20px;
+}
+.table-header{
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: none;
+  margin: 10px auto;
+  
+}
+.BMI-description {
+  color: gray;
+  margin-left: 0px;
+  font-size: 14px;
+  margin-left: 20px;
+  width: 333px;
+}
+
+/* form */
+.form-section{
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin: 20px;
+}
+.form-header{
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: none;
+  margin-bottom: 0px;
+  
+}
+
+.form-description{
+  text-align: start;
+  color: gray;
+  font-size: 14px;
+
+}
+.form{
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  font-size: 30px;
+  
+  
+  
+}
+.f-bg-color{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.from-content{
+  width: 353px;
+  height: 168px;
+  
+  
+  
+}
+input{
+  width: 155px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  margin: 5px 2.5px;
+
+  
+  
+  
+}
+.form-4{
+  width: 157px;
+  height: 47px;
+  border: none;
+  border-radius: 8px;
+  margin: 5px 2.5px;
+  color: gray;
+  
+}
+.from-5{
+  width: 328px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  margin: 5px 2.5px;
+  color: gray;
+  
+}
+.form-description{
+  font-size: 14px;
+  width: 341px;
+  height: 71px;
 }
 
 }

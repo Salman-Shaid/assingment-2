@@ -75,12 +75,7 @@ body {
 .navbar {
   justify-content: space-between;
   align-items: center;
-  width: 1440px;
-  margin: 0 auto;
   
-
-
-
 }
 
 .nav-links {
@@ -95,8 +90,6 @@ body {
 
 }
 
-
-
 .nav-item {
   margin-right: 30px;
   list-style: none;
@@ -104,6 +97,7 @@ body {
 }
 .nav-link{
   text-decoration: none;
+  font-weight: 500;
 }
 
 .home-style {
@@ -116,6 +110,10 @@ body {
 
 
 }
+.navbar, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
 .fit {
   margin-left: 190PX;
@@ -123,23 +121,31 @@ body {
   font-weight: 800;
   color: #E6533C;
 }
+.menu-bar{
+  display: none;
+}
+.cross{
+  display: none;
+}
+
+main{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+main > section{
+  margin-top: 130px;
+}
 
 /* banner-style */
 .banner {
   justify-content: space-between;
-  gap: 87px;
-  width: 1440px;
-  /* max-width: 1920px; */
-  margin: 0 auto;
-  margin-bottom: 100px;
-
-
-
+  align-items: center;
 
 }
 
 .banner-content {
-  margin-top: 96px;
+  
   margin-left: 190px;
   margin-right: 190px;
   padding-bottom: 38px;
@@ -219,13 +225,6 @@ body {
 }
 
 /* main section change your habits */
-.habit{
-  width: 1040px;
-  height: 452px;
-  margin: 0 198px;
-  
-
-}
 
 .section-items {
   text-align: center;
@@ -344,35 +343,29 @@ body {
   
 }
 
-
-/* Trainings and Exercises section style */
-
-.trn{
-  /* width: 1060px;
-  height: 581px; */
+.tranning{
+  
+  
   display: flex;
   justify-content: center;
-  align-items: center;
-
+  align-items: start;
 }
+
 .image-collage{
   width: 1060px;
-  height: 403;
-
-  
-  margin: 0;
-  
-
-  
-  
+  height: 403px;
+  margin: 0; 
 }
 .row {
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(3, 1fr);
-  margin: 0;
-  padding: 0;
+  
 
 
+}
+.training-description{
+  margin-bottom: 50px;
 }
 .image-1{
  
@@ -384,7 +377,7 @@ body {
   
     width: 539px;
     height: 218px;
-    color: #FFFFFF;
+    
 }
 .image-3{
   width: 358px;
@@ -403,6 +396,7 @@ body {
 .image-6{
   width: 376px;
   height: 240px;
+  
   
 }
 /* BMI calculator style */
@@ -431,15 +425,9 @@ body {
 .BMI-description {
   color: gray;
   margin-left: 450px;
+  font-size: 14px;
 }
-.table-section{
-  
-  
-  
-  
-  
-  
-}
+
 
 
 table {
@@ -512,7 +500,7 @@ td{
 .f-bg-color{
   background-color: rgba(255, 255, 255, 0.1);
 }
-.from-cont{
+.from-content{
   width: 577px;
   height: 168px;
   margin: 0;
@@ -556,8 +544,7 @@ input{
 
 
 .meet-section {
-  /* width: 1060px;
-  height: 782px; */
+  
   justify-content: center;
   align-items: center;
 
@@ -576,7 +563,8 @@ input{
   justify-content: center;
   text-align: center;
   color: gray;
-  margin-bottom: 100px;
+  margin-bottom: 58px;
+  font-size: 14px;
 }
 .team-image{
 
@@ -611,20 +599,16 @@ input{
   
   margin: 0 auto; 
 }
-.footer{
+.footer-container{
   justify-content: space-between;
   margin-top: 100px;
-  padding-top: 90px;
-  /* max-width: 1920px;
-  margin: 0 auto; */
-  /* width: 1059px;
-  height: 249px; */
+  padding-top: 0px;
+  
 
 }
+
 .footer-1{
   margin: 0px 102px 0px 190px;
-  
-  
   
 }
 .footer-head{
@@ -645,6 +629,7 @@ input{
   color: #FFFFFF;
   margin-right: 190px;
   margin-bottom: 100px;
+  margin-top: 40PX;
 }
 
 .item{
@@ -677,7 +662,125 @@ input{
   padding: 50px;
   font-size: 25px;
   border-top: 2px solid gray;
-  margin: 0 190px;
-
-  
+  margin: 0 190px; 
 }
+
+.hide{
+  display: none;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+
+  .banner{
+    
+    
+  }
+  .banner-content{
+    
+      flex-direction: column;
+      align-items: center;
+      
+  }
+  .banner-content-1{
+    margin-left: 10px;
+
+    
+  }
+
+  .btn-primary {
+
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #E6533C;
+    border-radius: 42px;
+    border: none;
+    margin-right: 5px;
+  
+  }
+  
+  .btn-sec {
+  
+    width: 170px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(26, 19, 19, 0);
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 42px;
+  
+  
+  }
+
+  .btn-mobile{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+  .banner-profile{
+    width: 353px;
+    height: 542px;
+    margin-right: 450px;
+    
+  }
+
+  .banner-title {
+    width: 285px;
+    height: 129px;
+    font-size: 36px;
+    color: #FFFFFF;
+  
+  
+  }
+  .banner-description {
+    color: gray;
+    width: 270px;
+    height: 95px;
+    font-weight: 500;
+    font-size: 16;
+
+}
+#tutorial-badge {
+  position: absolute;
+  padding: 20px 23px 20px 50px;
+  font-size: 1rem;
+  color: #ffffff7c;
+  margin-top: -344px;
+  margin-left: 200px;
+  border-radius: 12px;
+  border: 0.5px solid rgba(128, 128, 128, 0.452);
+  background-color: rgba(63, 61, 61, 0.39);
+  backdrop-filter: blur(8px);
+}
+
+.ball {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #E6533C;
+  border-radius: 50%;
+  margin-top: -320px;
+  margin-left: 210px;
+
+}
+
+#tutorial-badge-2 {
+  position: absolute;
+  padding: 10px 30px 10px 24px;
+  font-size: 1rem;
+  color: #ffffff71;
+  margin-top: -520px;
+  margin-left: 390px;
+  border-radius: 12px;
+  border: 0.5px solid rgba(128, 128, 128, 0.452);
+  background-color: rgba(63, 61, 61, 0.39);
+  backdrop-filter: blur(8px);
+}
+
+
+
+/* medium size device */

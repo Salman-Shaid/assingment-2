@@ -14,8 +14,8 @@
 </head>
 
 <body class="inter-fonts">
-    <header>
-        <nav class="navbar display-flex bg-color">
+    <header class="bg-color">
+        <nav class="navbar display-flex hide">
             <h2 class="fit"><i>Fitness</i></h2>
 
             <ul class="nav-links display-flex">
@@ -26,24 +26,31 @@
                 <li class="nav-item"><a href="" class="nav-link text-white">About</a></li>
 
             </ul>
+            <img class="menu-bar" src="images/icon/icons8-menu-bar-64.png" alt="">
+            <img class="cross" src="images/icon/icons8-cross-30.png" alt="">
+
         </nav>
 
 
         <!-- banner -->
 
-        <div class="banner display-flex bg-color">
+        <div class="banner">
             <div class="banner-content display-flex ">
-                <div>
+                <div class="banner-content-1">
                     <h2 class="banner-title">Get body in <span class="mia">shape</span> & stay healthy</h2>
                     <p class="banner-description">A huge selection of health and fitness content, healthy recipes and
                         transformation stories to help you get fit and stay fit!</p>
+                    <div class="btn-mobile">
+                        <button class="btn-primary">Join Club Now!</button>
 
-                    <button class="btn-primary">Join Club Now!</button>
+                        <button class="btn-sec">Download App</button>
 
-                    <button class="btn-sec">Download App</button>
+                    </div>
+
+
                 </div>
 
-                <div class="">
+                <div class="banner-profile">
                     <img class="image-banner" src="images/Images 2.png" alt="">
                     <div>
                         <button id="tutorial-badge" class="badge-1"><span id="video-tutorial">350+</span>
@@ -79,7 +86,7 @@
         <!-- change your habits -->
         <section>
 
-            <div class="habit-div">
+            <div class="habit-container">
                 <h3 class="section-title display-flex">Change Your Habits</h3>
                 <p class="section-description display-flex">We believe fitness should be accessible to everyone,
                     everywhere,
@@ -111,9 +118,6 @@
 
 
 
-
-
-
         </section>
 
         <!-- Run an Extra Mile section -->
@@ -138,8 +142,8 @@
         </section>
 
         <!-- Trainings and Exercises section -->
-        <section class="trn">
-            <div>
+        <section class="tranning">
+            <div class="tranning-container">
                 <h3 class="training-title">Trainings and Exercises</h3>
                 <p class="training-description">We believe fitness should be accessible to everyone, everywhere,
                     regardless
@@ -183,7 +187,7 @@
 
         <!-- BMI Calculator section -->
 
-        <section class="table-form ">
+        <section class="table-form">
             <h3 class="BMI-title">BMI Calculator</h3>
             <p class="BMI-description">We believe fitness should be accessible to everyone, everywhere, regardless
                 of income or <br> access to a gym.</p>
@@ -201,7 +205,7 @@
                                     <th class="table">Weight Status</th>
                                 </tr>
                             </thead>
-    
+
                             <tbody>
                                 <tr>
                                     <td>Below 18.5</td>
@@ -220,11 +224,11 @@
                                     <td>Obese</td>
                                 </tr>
                             </tbody>
-    
+
                         </table>
 
                     </div>
-                    
+
 
                 </div>
 
@@ -238,10 +242,10 @@
                         of <br> income or access to a gym.</p>
 
                     <div class="form">
-                        <form class="from-cont">
+                        <form class="from-content">
 
                             <input class="f-bg-color" type="number" placeholder="Height/cm">
-                            
+
 
                             <input class="f-bg-color" type="number" placeholder="Weight/kg">
                             <br>
@@ -249,12 +253,12 @@
                             <div>
                                 <input class="f-bg-color" type="number" placeholder="Age">
                                 <select required class="form-4 f-bg-color">
-                                <option value="" disable selected hidden>Sex</option>
-                                <option value="option1">Male</option>
-                                <option value="option2">Female</option>
-                                <option value="option3">Others</option>
-                            </select>
-                            
+                                    <option value="" disable selected hidden>Sex</option>
+                                    <option value="option1">Male</option>
+                                    <option value="option2">Female</option>
+                                    <option value="option3">Others</option>
+                                </select>
+
                             </div>
 
                             <select required class="from-5 f-bg-color">
@@ -300,43 +304,47 @@
         </section>
     </main>
 
-    <footer class="footer-section bg-color">
-        <div class="display-flex footer">
-            <div class="footer-1">
-                <h3 class="footer-head"><i>Fitness</i></h3>
-                <p class="footer-description">We believe fitness should be accessible to everyone,<br>
-                    everywhere,regardless of income or access to a gym. <br> With
-                    hundreds of professional workouts.</p>
-            </div>
-            
-            <div class="display-flex">
-                <div class="footer-2">
-                    <h4 class="footer-2-head">Get Started</h4>
-                    <ul>
-                        <li class="item"><a class="link" href="">Service</a></li>
-                        <li class="item"><a class="link" href="">Contact Us</a></li>
-                        <li class="item"><a class="link" href="">Affiliate Program</a></li>
-                        <li class="item"><a class="link" href="">About Us</a></li>
-    
-                    </ul>
+    <!-- footer section -->
+
+    <footer class=" bg-color">
+        <div class="footer-section">
+            <div class="display-flex footer-container">
+                <div class="footer-1">
+                    <h3 class="footer-head"><i>Fitness</i></h3>
+                    <p class="footer-description">We believe fitness should be accessible to everyone,
+                        everywhere,regardless of income or access to a gym.With
+                        hundreds of professional workouts.</p>
                 </div>
-                <div class="footer-2">
-                    <h4 class="footer-2-head">Get Started</h4>
-                    <ul>
-                        <li class="item"><a class="link" href="">Fitness</a></li>
-                        <li class="item"><a class="link" href="">Platform</a></li>
-                        <li class="item"><a class="link" href="">Workout Libary</a></li>
-                        <li class="item"><a class="link" href="">App Design</a></li>
-    
-                    </ul>
+
+                <div class="footer-get display-flex">
+                    <div class="footer-2">
+                        <h4 class="footer-2-head">Get Started</h4>
+                        <ul>
+                            <li class="item"><a class="link" href="">Service</a></li>
+                            <li class="item"><a class="link" href="">Contact Us</a></li>
+                            <li class="item"><a class="link" href="">Affiliate Program</a></li>
+                            <li class="item"><a class="link" href="">About Us</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="footer-2">
+                        <h4 class="footer-2-head">Get Started</h4>
+                        <ul>
+                            <li class="item"><a class="link" href="">Fitness</a></li>
+                            <li class="item"><a class="link" href="">Platform</a></li>
+                            <li class="item"><a class="link" href="">Workout Libary</a></li>
+                            <li class="item"><a class="link" href="">App Design</a></li>
+
+                        </ul>
+                    </div>
                 </div>
+
+
             </div>
 
-
-        </div>
-
-        <div class="">
-            <p class="display-flex all-right">All right reserved @Fitness 2024</p>
+            <div class="">
+                <p class="display-flex all-right">All right reserved @Fitness 2024</p>
+            </div>
         </div>
     </footer>
 </body>
